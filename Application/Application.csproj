@@ -7,10 +7,44 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1"/>
-        <PackageReference Include="File.TypeChecker" Version="4.0.0"/>
-        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0"/>
-        <PackageReference Include="MediatR" Version="12.0.1"/>
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5"/>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+        <PackageReference Include="File.TypeChecker" Version="4.0.0" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+        <PackageReference Include="MediatR" Version="12.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+        <PackageReference Include="System.Linq" Version="4.3.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="DTOs\" />
+      <None Remove="DTOs\Common\" />
+      <None Remove="Features\Contest\" />
+      <None Remove="Features\User\" />
+      <None Remove="Features\User\Handlers\" />
+      <None Remove="Features\User\Requests\" />
+      <None Remove="Features\User\Handlers\Commands\" />
+      <None Remove="Features\User\Handlers\Queries\" />
+      <None Remove="Features\Contest\Handlers\" />
+      <None Remove="Features\Contest\Requests\" />
+      <None Remove="Features\Contest\Handlers\Commands\" />
+      <None Remove="Features\Contest\Handlers\Queries\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="DTOs\" />
+      <Folder Include="DTOs\Common\" />
+      <Folder Include="Features\Contest\" />
+      <Folder Include="Features\User\" />
+      <Folder Include="Features\User\Handlers\" />
+      <Folder Include="Features\User\Requests\" />
+      <Folder Include="Features\User\Handlers\Commands\" />
+      <Folder Include="Features\User\Handlers\Queries\" />
+      <Folder Include="Features\Contest\Handlers\" />
+      <Folder Include="Features\Contest\Requests\" />
+      <Folder Include="Features\Contest\Handlers\Commands\" />
+      <Folder Include="Features\Contest\Handlers\Queries\" />
     </ItemGroup>
 </Project>
