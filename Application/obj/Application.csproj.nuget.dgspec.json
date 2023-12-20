@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Application.csproj": {}
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj": {}
   },
   "projects": {
-    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Application.csproj": {
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Application.csproj",
+        "projectUniqueName": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Application.csproj",
-        "packagesPath": "/Users/henon/.nuget/packages/",
-        "outputPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/obj/",
+        "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
+        "outputPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/henon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj": {
-                "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj"
+              "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj"
               }
             }
           }
@@ -46,33 +46,25 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "File.TypeChecker": {
+            "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[4.0.0, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[11.5.2, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.7, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.2.0, )"
             },
-            "System.Linq": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[7.0.7, )"
             }
           },
           "imports": [
@@ -91,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj": {
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj",
+        "projectUniqueName": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj",
-        "packagesPath": "/Users/henon/.nuget/packages/",
-        "outputPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/obj/",
+        "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
+        "outputPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/henon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -154,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

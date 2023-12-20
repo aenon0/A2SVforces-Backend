@@ -1,20 +1,103 @@
 {
   "format": 1,
   "restore": {
-    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/Infrastructure.csproj": {}
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/Infrastructure.csproj": {
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/henon/.nuget/packages/",
-        "outputPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/obj/",
+        "projectUniqueName": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
+        "outputPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/henon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
+        "outputPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,33 +121,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "CloudinaryDotNet": {
-              "target": "Package",
-              "version": "[1.21.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Microsoft.Extensions.Configuration.Json": {
+            "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Options.ConfigurationExtensions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.IdentityModel.JsonWebTokens": {
-              "target": "Package",
-              "version": "[6.31.0, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.31.0, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.31.0, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -83,7 +146,64 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\a2sv\\contest\\A2SVforces-Backend\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\a2sv\\contest\\A2SVforces-Backend\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
+        "outputPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj": {
+                "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
