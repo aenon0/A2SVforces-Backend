@@ -1,30 +1,30 @@
 ﻿using System;
 using Domain.Entites;
-namespace Application.Contracts
+namespace Application.Contracts.Persistence
 {
-    public class IQuestionRepository : IGenericRepository<Question>
+    public class IGenerationRepository : IGenericRepository<Generation>
     {
-        public Task<Question> Add(Question entity)
+        public Task<Generation> Add(Generation entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Question> Delete(Question entity)
+        public Task<Generation> Delete(Generation entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Question> Get(int id)
+        public Task<Generation> Get(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IReadOnlyList<Question>> GetAll()
+        public Task<IReadOnlyList<Generation>> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Question> Update(Question entity)
+        public Task<Generation> Update(Generation entity)
         {
             throw new NotImplementedException();
         }

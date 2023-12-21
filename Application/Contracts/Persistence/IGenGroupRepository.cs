@@ -1,31 +1,30 @@
 ﻿using System;
 using Domain.Entites;
-
-namespace Application.Contracts
+namespace Application.Contracts.Persistence
 {
-    public class HeadGenGroupRepository : IGenericRepository<HeadGenGroup>
+    public class IGenGroupRepository : IGenericRepository<GenGroup>
     {
-        public Task<HeadGenGroup> Add(HeadGenGroup entity)
+        public Task<GenGroup> Add(GenGroup entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<HeadGenGroup> Delete(HeadGenGroup entity)
+        public Task<GenGroup> Delete(GenGroup entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<HeadGenGroup> Get(int id)
+        public Task<GenGroup> Get(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IReadOnlyList<HeadGenGroup>> GetAll()
+        public Task<IReadOnlyList<GenGroup>> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<HeadGenGroup> Update(HeadGenGroup entity)
+        public Task<GenGroup> Update(GenGroup entity)
         {
             throw new NotImplementedException();
         }

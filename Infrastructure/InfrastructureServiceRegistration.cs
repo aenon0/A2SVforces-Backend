@@ -11,6 +11,7 @@ public static class InfrastrucureServiceRegistration
     {
         // email settings setup will be added here
         services.AddScoped<IUserAccessor, UserAccessor>();
+        services.AddHttpClient<ICodeforcesService, CodeforcesService>();
         return services;
     }
 }

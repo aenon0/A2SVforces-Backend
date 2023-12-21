@@ -1,6 +1,6 @@
 ﻿using System;
 using Domain.Entites;
-namespace Application.Contracts
+namespace Application.Contracts.Persistence
 {
     public class IUserContestHistoryRepository: IGenericRepository<UserContestHistory>
     {

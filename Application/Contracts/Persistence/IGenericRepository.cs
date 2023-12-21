@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Application.Contracts
+namespace Application.Contracts.Persistence
 {
 	public interface IGenericRepository<T> where T: class
 	{
