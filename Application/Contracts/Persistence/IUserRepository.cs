@@ -1,7 +1,7 @@
 ﻿using System;
 using Domain.Entites;
 
-namespace Application.Contracts
+namespace Application.Contracts.Persistence
 {
     public class IUserRepository : IGenericRepository<User>
     {

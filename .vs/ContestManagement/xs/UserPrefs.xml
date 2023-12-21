@@ -1,42 +1,49 @@
 ﻿<Properties StartupConfiguration="{5B75826B-28A2-4E66-B68B-1A42991444DD}|https">
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Features/User/Requests/GetUserListByNameRequest.cs" relfile="Application/Features/User/Requests/GetUserListByNameRequest.cs" line="6" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../GetOverallContestStandingRequestHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application/Usecases/ContestUsecase.cs">
     <Files>
-      <File FileName="Application/Features/Contest/Handlers/Queries/GetOverallContestResultRequestHandler.cs" Line="18" Column="11" />
-      <File FileName="Application/Features/Contest/Requests/GetContestRequest.cs" Line="9" Column="28" />
-      <File FileName="Application/Contracts/IUserContestHistoryRepository.cs" Line="27" Column="46" />
+      <File FileName="Application/Usecases/ContestUsecase.cs" Line="21" Column="13" />
+      <File FileName="Application/DTOs/QuestionDto.cs" Line="9" Column="3" />
+      <File FileName="Domain/Entites/Question.cs" Line="9" Column="34" />
+      <File FileName="Application/DTOs/ContestDto.cs" Line="1" Column="1" />
+      <File FileName="Application/DTOs/QuestionContestDto.cs" Line="11" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ContestManagement" expanded="True">
-            <Node name="Application" expanded="True">
-              <Node name="Contracts" expanded="True" />
+            <Node name="Application">
+              <Node name="Contracts" expanded="True">
+                <Node name="Persistence" expanded="True" />
+              </Node>
+              <Node name="DTOs" expanded="True" />
               <Node name="Features" expanded="True">
-                <Node name="Contest" expanded="True">
+                <Node name="User" expanded="True">
                   <Node name="Handlers" expanded="True">
                     <Node name="Queries" expanded="True" />
                   </Node>
                   <Node name="Requests" expanded="True" />
                 </Node>
               </Node>
+              <Node name="Usecases" expanded="True">
+                <Node name="ContestUsecase.cs" selected="True" />
+              </Node>
             </Node>
+            <Node name="Domain">
+              <Node name="Entites" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="ContestManagement" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Features/User/Requests/GetUserListByNameRequest.cs" relfile="Application/Features/User/Requests/GetUserListByNameRequest.cs" line="6" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

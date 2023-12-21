@@ -2409,19 +2409,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Getahun\\.nuget\\packages\\": {}
+    "/Users/henon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj",
+      "projectUniqueName": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
-      "outputPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Application\\obj\\",
+      "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/Application.csproj",
+      "packagesPath": "/Users/henon/.nuget/packages/",
+      "outputPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/henon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2433,8 +2433,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\a2sv\\contest\\A2SVforces-Backend\\Domain\\Domain.csproj"
+            "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj": {
+              "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Domain/Domain.csproj"
             }
           }
         }
@@ -2490,7 +2490,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

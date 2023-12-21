@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\a2sv\\contest\\A2SVforces-Backend\\Application.Tests\\Application.Tests.csproj": {}
+    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application.Tests/Application.Tests.csproj": {}
   },
   "projects": {
-    "D:\\a2sv\\contest\\A2SVforces-Backend\\Application.Tests\\Application.Tests.csproj": {
+    "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application.Tests/Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\a2sv\\contest\\A2SVforces-Backend\\Application.Tests\\Application.Tests.csproj",
+        "projectUniqueName": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application.Tests/Application.Tests.csproj",
         "projectName": "Application.Tests",
-        "projectPath": "D:\\a2sv\\contest\\A2SVforces-Backend\\Application.Tests\\Application.Tests.csproj",
-        "packagesPath": "C:\\Users\\Getahun\\.nuget\\packages\\",
-        "outputPath": "D:\\a2sv\\contest\\A2SVforces-Backend\\Application.Tests\\obj\\",
+        "projectPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application.Tests/Application.Tests.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Getahun\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     }
