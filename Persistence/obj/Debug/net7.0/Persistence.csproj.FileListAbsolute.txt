@@ -39,6 +39,4 @@ D:/a2sv/contest/A2SVforces-Backend/Persistence/obj/Debug/net7.0/Persistence.cspr
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/obj/Debug/net7.0/Persistence.sourcelink.json
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
 =======
-/Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
-/Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/obj/Debug/net7.0/Persistence.sourcelink.json
 >>>>>>> fixTheDetached
