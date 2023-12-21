@@ -136,3 +136,4 @@ d:/a2sv/contest/A2SVforces-Backend/WebApi/bin/Debug/net7.0/Persistence.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/WebApi/bin/Debug/net7.0/Infrastructure.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/WebApi/bin/Debug/net7.0/Domain.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/WebApi/bin/Debug/net7.0/Persistence.pdb
+/Users/henon/Documents/Projects/DotNetCleanScaffold/WebApi/obj/Debug/net7.0/WebApi.sourcelink.json

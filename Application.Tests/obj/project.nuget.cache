@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "asuv8ws0mh1cJ8n7hovjSSqQuWhIEPBaK1wNIqm5BuGWBvq2/CWHKOmV9HzgDB9nRpB5msZKg+OjNP3Ov4GUVA==",
+  "dgSpecHash": "/7kWRgoY9pttjIxtT3VpGn0l4c/6Y7QTs5kNS2Pn9Rvy4jxK4MFFXNIHPGYMONF/iVrm3nHs2aQDE4YLJ1Ua0w==",
   "success": true,
   "projectFilePath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/Application.Tests/Application.Tests.csproj",
   "expectedPackageFiles": [

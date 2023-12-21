@@ -32,3 +32,4 @@ D:/a2sv/contest/A2SVforces-Backend/Infrastructure/obj/Debug/net7.0/Infrastructur
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/bin/Debug/net7.0/Application.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/bin/Debug/net7.0/Domain.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CopyComplete
+/Users/henon/Documents/Projects/DotNetCleanScaffold/Infrastructure/obj/Debug/net7.0/Infrastructure.sourcelink.json

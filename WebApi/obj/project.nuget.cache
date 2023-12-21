@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WnBwXLkaAZE8RlXJtjlRuj2w0pI6lVKykPeWYeaXG6ZObWuo7Wk8XAwYPhTR5wqSXCpzb8L011rrkb1VI8yjrw==",
+  "dgSpecHash": "ghpmJ8+mft2vYGmNo1aFbT/ySNxnWgxog1Y7sZGYI9DR2Y4EiWalO1VcFlXDSbRVKlWxT33BIewZ6CzZM/+5rQ==",
   "success": true,
   "projectFilePath": "/Users/henon/Documents/Projects/DotNetCleanScaffold/WebApi/WebApi.csproj",
   "expectedPackageFiles": [

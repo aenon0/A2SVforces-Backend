@@ -36,3 +36,4 @@ D:/a2sv/contest/A2SVforces-Backend/Persistence/obj/Debug/net7.0/Persistence.cspr
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/bin/Debug/net7.0/Domain.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/bin/Debug/net7.0/Application.pdb
 /Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
+/Users/henon/Documents/Projects/DotNetCleanScaffold/Persistence/obj/Debug/net7.0/Persistence.sourcelink.json
